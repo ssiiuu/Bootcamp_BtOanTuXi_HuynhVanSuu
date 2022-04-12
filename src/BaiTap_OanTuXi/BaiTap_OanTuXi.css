@@ -1,0 +1,55 @@
+.bgGame{
+   background-image: url(./assets/bgGame.png);
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   background-size: 100%;
+   font-family: font_Game;
+}
+@font-face {
+    font-family: "font_Game";
+    src: url("./assets/Pony.ttf");
+}
+.playerGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.theThink{
+    width:200px;
+    height:120px;
+    border: 5px solid #45D994;
+    background: #fff;
+    border-radius: 10px;
+}
+.speech-bubble {
+	position: relative;
+	background: #45D994;
+	border-radius: .4em;
+	
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #45D994;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
+}
+.btnPlayer{
+    width: 50px;
+    height:50px;
+    border-radius: 5px;
+}
+.btnPlayer img{
+    width: 100%;
+    height:100%
+}
